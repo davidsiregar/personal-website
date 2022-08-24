@@ -1,0 +1,5 @@
+@media (max-width: 50em) {
+	.header-photo {
+		max-width: 42rem;
+	}
+}

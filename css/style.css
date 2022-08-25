@@ -42,11 +42,12 @@
 	--paleSpringBud: #dedaba;
 	--goldCrayola: #e5c687;
 	--richBlackForeground: #0f1a20;
-	--white: #f8f8f8;
+	--white: #fff;
 	--black: #222;
 	--msuGreen: #2d4739;
 	--gray: #eee;
 	--filter: brightness(40%);
+	--opacity: 0.6;
 }
 
 .dark-theme {
@@ -57,8 +58,8 @@
 	--mainBg: var(--black);
 	--fontColor: var(--white);
 	--background-color: var(--black);
-	--slide-black: url(/img/black-bg.jpeg);
 	--dark-background: var(--filter);
+	--opacity-back: var(--opacity);
 }
 
 * {
@@ -83,7 +84,7 @@ body {
 	margin: 16px 0;
 }
 .title-header-link {
-	opacity: 0.3;
+	opacity: var(--opacity-back);
 }
 
 .title-header-link:link,
@@ -244,7 +245,7 @@ input:checked + .slider {
 }
 
 .certificate {
-	text-align: center;
+	/* text-align: center; */
 	font-size: 24px;
 	text-transform: uppercase;
 	top: auto;
@@ -289,6 +290,11 @@ input:checked + .slider {
 }
 .experience__text {
 	transform: skewY(1deg);
+}
+.carousel-control-next,
+.carousel-control-prev {
+	color: #0f1a20;
+	color: var(--fontColor);
 }
 .contact {
 	display: flex;

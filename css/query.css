@@ -1,5 +1,20 @@
-@media (max-width: 50em) {
-	.header-photo {
-		max-width: 42rem;
+@media (max-width: 20em) {
+	.section-photo {
+		max-width: 12rem;
 	}
+	.img-header,
+	.img-personal {
+		max-width: 15rem;
+	}
+	.name {
+		max-width: 10rem;
+	}
+	.personal-summary {
+		max-width: 8rem;
+	}
+}
+
+.btn-mobile-nav{
+	display: block;
+	z-index: 9999;
 }

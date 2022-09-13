@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  transition: background-color 0.6s ease, color 1s ease;
+}
+
+html {
+  font-size: 90%;
+}
+
+body {
+  background-color: #fff;
+  background-color: var(--background-color);
+}
+
+.text-center{
+  text-align: center;
+}

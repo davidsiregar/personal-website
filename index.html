@@ -30,6 +30,7 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/query.css">
+  <link rel="stylesheet" href="css/general.css">
   <title>Personal Portfolio</title>
 </head>
 
@@ -79,7 +80,7 @@
       alt="photo personal" class="img-personal">
     <h2 class="name">David Siregar</h2>
     <div class="personal-summary">
-      <h3>I’m interest about website and motivated to be
+      <h3 class="personal-motivated">I’m interest about website and motivated to be
         a
         developer website such as frontend developer or
         backend developer or a both</h3>
@@ -93,7 +94,7 @@
     </div>
 
     <!-- carousel  -->
-    <section id="certification" id="certification">
+    <section id="certification" >
       <div class="container-fluid">
         <div id="carouselExampleControls"
           class="carousel slide" data-bs-ride="carousel"
@@ -179,6 +180,38 @@
           class="fa-brands fa-github fa-2x"></i></a>
       <a href="https://wa.link/bypon3" target="_blank"><i
           class="fa-brands fa-whatsapp fa-2x"></i></a>
+    </section>
+
+    <!-- Project Own -->
+    <section class="project">
+      
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="accordion-span">Simple DOM-Piano</span>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <a href="https://reliable-alfajores-28a51f.netlify.app/" class="text-center">DOM-Piano</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              TodoList
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <a href="https://courageous-figolla-8fb784.netlify.app/">TodoList</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 

@@ -1,0 +1,90 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  70% {
+    transform: translateX(1px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(1px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@media (max-width: 15rem) {
+  .nav-title {
+    max-width: 10rem;
+  }
+  .title-header {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 55rem) {
+  .section-photo {
+    max-width: 150rem;
+
+  }
+  .img-personal {
+    max-width: 15rem;
+  }
+  .name {
+    font-size: 0.8rem;
+    margin-top: 10rem;
+  }
+  .personal-motivated {
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    text-align: justify;
+    /* max-height: 90rem; */
+  }
+  
+}
+
+@media(max-width:40rem){
+  .certification-img{
+    max-width: 30rem;
+  }
+}
+
+@media(max-width:50rem){
+  .bg-video{
+    max-width: 40rem;
+  }
+  .experience{
+    max-width: 20rem;
+  }
+}
+
+@media(max-width:30rem){
+  .footer{
+    max-width: 10rem;
+    margin-top: 15rem;
+  }
+}
